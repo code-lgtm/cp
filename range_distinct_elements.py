@@ -1,3 +1,5 @@
+# https://www.spoj.com/problems/GIVEAWAY/
+
 import unittest
 import math
 import bisect
