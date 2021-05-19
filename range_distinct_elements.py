@@ -27,6 +27,8 @@ class RangeDistinctElements:
         self.nxt[m[self.a[i]]] = i
         self.prev[i] = m[self.a[i]]
       m[self.a[i]] = i
+      # Tree Map would have been a better choice instead of list.
+      # TODO: Implement tree map and switch.
       self.pos[self.a[i]].append(i)
 
     # Divide next array into blocks and sort elements within each block
